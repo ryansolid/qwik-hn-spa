@@ -49,7 +49,7 @@ export default component$(
               {stories && (
                 <ul>
                   {stories.map((story: IStory) => (
-                    <Story key={story.id} story={story} />
+                    <Story story={story} />
                   ))}
                 </ul>
               )}
